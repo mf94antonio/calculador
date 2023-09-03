@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background: white;
+    box-shadow: black;
+    
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+main .text {
+    
+}
+
+main #btn {
+    color: white;
+    background: green;
+    border: none;
+    padding: 4px;
+}
