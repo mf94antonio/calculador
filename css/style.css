@@ -16,7 +16,8 @@ body {
 main {
     background: white;
     box-shadow: black;
-    
+    max-width: 800px;
+    min-width: 320px;
     width: 40%;
     padding: 10px;
     display: flex;
@@ -31,9 +32,13 @@ main .text {
     
 }
 
+.auto input {
+    width: 50%;
+}
 main #btn {
     color: white;
     background: green;
     border: none;
     padding: 4px;
+    width: 100%;
 }
